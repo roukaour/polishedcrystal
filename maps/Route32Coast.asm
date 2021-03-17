@@ -6,6 +6,7 @@ Route32Coast_MapScriptHeader:
 	def_warp_events
 	warp_event  4, 57, UNION_CAVE_B1F_SOUTH, 4
 	warp_event 17, 51, ROUTE_32_COAST_HOUSE, 1
+	warp_event  9, 44, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
@@ -15,6 +16,8 @@ Route32Coast_MapScriptHeader:
 	bg_event 17, 34, BGEVENT_ITEM + LEVEL_BALL, EVENT_ROUTE_32_COAST_HIDDEN_LEVEL_BALL
 	bg_event  5, 45, BGEVENT_ITEM + HYPER_POTION, EVENT_ROUTE_32_COAST_HIDDEN_HYPER_POTION
 	bg_event 14,  8, BGEVENT_ITEM + HYPER_POTION, EVENT_ROUTE_32_COAST_HIDDEN_ELIXIR
+	bg_event  8, 43, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_32_COAST
+	bg_event  9, 43, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_32_COAST
 
 	def_object_events
 	object_event  9,  5, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSwimmermMichel, -1

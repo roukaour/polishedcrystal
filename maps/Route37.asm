@@ -5,12 +5,15 @@ Route37_MapScriptHeader:
 	callback MAPCALLBACK_OBJECTS, SunnyCallback
 
 	def_warp_events
+	warp_event  11, 18, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event  5,  3, BGEVENT_JUMPTEXT, Route37SignText
 	bg_event  4,  2, BGEVENT_ITEM + ETHER, EVENT_ROUTE_37_HIDDEN_ETHER
+	bg_event 10, 17, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_37
+	bg_event 11, 17, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_37
 
 	def_object_events
 	object_event 16,  8, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SunnyScript, EVENT_ROUTE_37_SUNNY_OF_SUNDAY

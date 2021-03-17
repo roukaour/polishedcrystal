@@ -17,6 +17,7 @@ OlivineCity_MapScriptHeader:
 	warp_event 20, 31, OLIVINE_PORT_PASSAGE, 2
 	warp_event 57, 30, ROUTE_35_NATIONAL_PARK_GATE, 5
 	warp_event 57, 31, ROUTE_35_NATIONAL_PARK_GATE, 6
+	warp_event 49, 16, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 	coord_event 10,  8, 0, OlivineCityRivalGymScript
@@ -32,6 +33,8 @@ OlivineCity_MapScriptHeader:
 	bg_event 36, 14, BGEVENT_ITEM + RARE_CANDY, EVENT_OLIVINE_CITY_HIDDEN_RARE_CANDY
 	bg_event 47, 17, BGEVENT_ITEM + BIG_PEARL, EVENT_OLIVINE_CITY_HIDDEN_BIG_PEARL
 	bg_event 49, 29, BGEVENT_ITEM + SOFT_SAND, EVENT_OLIVINE_CITY_HIDDEN_SOFT_SAND
+	bg_event  48, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_OLIVINE_CITY
+	bg_event  49, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_OLIVINE_CITY
 
 	def_object_events
 	object_event 10,  7, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_OLIVINE_CITY

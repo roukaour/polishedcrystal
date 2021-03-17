@@ -6,11 +6,15 @@ Route33_MapScriptHeader:
 
 	def_warp_events
 	warp_event 11,  9, UNION_CAVE_1F, 3
+	warp_event  6, 10, HIDDEN_TREE_GROTTO, 1
+
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 11, 11, BGEVENT_JUMPTEXT, Route33SignText
+	bg_event  6,  9, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_33
+	bg_event  7,  9, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_33
 
 	def_object_events
 	object_event  6, 13, SPRITE_HIKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerHikerAnthony, -1

@@ -6,6 +6,7 @@ Route39_MapScriptHeader:
 	def_warp_events
 	warp_event  1,  3, ROUTE_39_BARN, 1
 	warp_event  5,  3, ROUTE_39_FARMHOUSE, 1
+	warp_event  4, 20, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
@@ -14,6 +15,8 @@ Route39_MapScriptHeader:
 	bg_event  9,  5, BGEVENT_JUMPTEXT, MoomooFarmSignText
 	bg_event 15,  7, BGEVENT_JUMPTEXT, Route39SignText
 	bg_event  5, 13, BGEVENT_ITEM + NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
+	bg_event  4, 19, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_39
+	bg_event  5, 19, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_39
 
 	def_object_events
 	object_event  7, 14, SPRITE_COWGIRL, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39CowgirlAnnieScript, -1

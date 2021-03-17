@@ -6,6 +6,7 @@ Route48_MapScriptHeader:
 
 	def_warp_events
 	warp_event 11,  5, YELLOW_FOREST_GATE, 3
+	warp_event  9, 16, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 	coord_event 20, 12, 0, Route48JessieJamesScript1
@@ -13,6 +14,8 @@ Route48_MapScriptHeader:
 
 	def_bg_events
 	bg_event 27, 11, BGEVENT_JUMPTEXT, Route48YellowForestSignText
+	bg_event  8, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_48
+	bg_event  9, 15, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_48
 
 	def_object_events
 	object_event 11,  6, SPRITE_ARCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerArcher2, EVENT_CLEARED_YELLOW_FOREST

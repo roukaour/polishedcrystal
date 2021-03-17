@@ -196,20 +196,20 @@ NUM_FRUIT_TREES EQU const_value - 1
 	const HIDDENGROTTO_ILEX_FOREST        ; 02
 	const HIDDENGROTTO_ROUTE_35           ; 03
 	const HIDDENGROTTO_LAKE_OF_RAGE       ; 04
-	const HIDDENGROTTO_05                 ; 05
-	const HIDDENGROTTO_06                 ; 06
-	const HIDDENGROTTO_07                 ; 07
-	const HIDDENGROTTO_08                 ; 08
-	const HIDDENGROTTO_09                 ; 09
-	const HIDDENGROTTO_0A                 ; 0a
-	const HIDDENGROTTO_0B                 ; 0b
-	const HIDDENGROTTO_0C                 ; 0c
-	const HIDDENGROTTO_0D                 ; 0d
-	const HIDDENGROTTO_0E                 ; 0e
-	const HIDDENGROTTO_0F                 ; 0f
-	const HIDDENGROTTO_10                 ; 10
-	const HIDDENGROTTO_11                 ; 11
-	const HIDDENGROTTO_12                 ; 12
+	const HIDDENGROTTO_CHERRYGROVEBAY     ; 05
+	const HIDDENGROTTO_RUINSOFALPH        ; 06
+	const HIDDENGROTTO_ROUTE_33           ; 07
+	const HIDDENGROTTO_ROUTE_32_COAST     ; 08
+	const HIDDENGROTTO_OLIVINE_CITY       ; 09
+	const HIDDENGROTTO_ROUTE_39           ; 0a
+	const HIDDENGROTTO_STORMY_BEACH       ; 0b
+	const HIDDENGROTTO_ROUTE_37           ; 0c
+	const HIDDENGROTTO_ROUTE_47           ; 0d
+	const HIDDENGROTTO_ROUTE_48           ; 0e
+	const HIDDENGROTTO_BELLCHIME_TRAIL    ; 0f
+	const HIDDENGROTTO_ROUTE_44           ; 10
+	const HIDDENGROTTO_ROUTE_45           ; 11
+	const HIDDENGROTTO_SILVER_CAVE_OUTSIDE; 12
 	const HIDDENGROTTO_13                 ; 13
 	const HIDDENGROTTO_14                 ; 14
 	const HIDDENGROTTO_15                 ; 15

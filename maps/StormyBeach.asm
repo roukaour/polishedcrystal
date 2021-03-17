@@ -6,11 +6,14 @@ StormyBeach_MapScriptHeader:
 	def_warp_events
 	warp_event 30,  4, MURKY_SWAMP, 1
 	warp_event 31,  4, MURKY_SWAMP, 2
+	warp_event 19, 8, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 17,  6, BGEVENT_ITEM + STARDUST, EVENT_STORMY_BEACH_HIDDEN_STARDUST
+	bg_event  19, 7, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_STORMY_BEACH
+	bg_event  18, 7, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_STORMY_BEACH
 
 	def_object_events
 	object_event  5, 13, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerSwimmerfBarbara, -1

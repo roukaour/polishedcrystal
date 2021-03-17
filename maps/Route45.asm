@@ -5,12 +5,14 @@ Route45_MapScriptHeader:
 
 	def_warp_events
 	warp_event  4,  5, DARK_CAVE_BLACKTHORN_ENTRANCE, 1
+	warp_event  9, 31, HIDDEN_CAVE_GROTTO, 1
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 17,  5, BGEVENT_JUMPTEXT, Route45SignText
 	bg_event 17, 78, BGEVENT_ITEM + PP_UP, EVENT_ROUTE_45_HIDDEN_PP_UP
+	bg_event 18, 63, BGEVENT_JUMPSTD, cavegrotto, HIDDENGROTTO_ROUTE_45
 
 	def_object_events
 	object_event 19, 75, SPRITE_DRAGON_TAMER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route45Dragon_tamerScript, -1

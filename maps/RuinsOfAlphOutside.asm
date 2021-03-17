@@ -19,6 +19,7 @@ RuinsOfAlphOutside_MapScriptHeader:
 	warp_event 15, 26, ROUTE_32_RUINS_OF_ALPH_GATE, 1
 	warp_event 15, 27, ROUTE_32_RUINS_OF_ALPH_GATE, 2
 	warp_event 10,  9, RUINS_OF_ALPH_SINJOH_CHAMBER, 1
+	warp_event 12, 36, HIDDEN_CAVE_GROTTO, 1
 
 	def_coord_events
 	coord_event 13, 20, 1, RuinsOfAlphOutsideScientistScene1
@@ -30,6 +31,7 @@ RuinsOfAlphOutside_MapScriptHeader:
 	bg_event 20, 18, BGEVENT_JUMPTEXT, RuinsOfAlphResearchCenterSignText
 	bg_event 10,  9, BGEVENT_IFNOTSET, MapRuinsofAlphOutsideSealedCaveSign
 	bg_event  4, 13, BGEVENT_ITEM + RARE_CANDY, EVENT_RUINS_OF_ALPH_OUTSIDE_HIDDEN_RARE_CANDY
+	bg_event  12, 35, BGEVENT_JUMPSTD, cavegrotto, HIDDENGROTTO_RUINSOFALPH
 
 	def_object_events
 	object_event 13, 21, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOutsideScientistScript, EVENT_RUINS_OF_ALPH_OUTSIDE_SCIENTIST

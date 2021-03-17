@@ -4,10 +4,13 @@ CherrygroveBay_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  22, 22, HIDDEN_TREE_GROTTO, 1
 
 	def_coord_events
 
 	def_bg_events
+	bg_event  22, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVEBAY
+	bg_event  23, 21, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_CHERRYGROVEBAY
 
 	def_object_events
 	object_event  9, 32, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CherrygroveBayHikerScript, -1

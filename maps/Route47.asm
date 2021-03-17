@@ -11,6 +11,7 @@ Route47_MapScriptHeader:
 	warp_event 53, 29, CLIFF_CAVE, 3
 	warp_event 11, 23, QUIET_CAVE_1F, 1
 	warp_event  8, 23, EMBEDDED_TOWER, 1
+	warp_event 41, 21, HIDDEN_CAVE_GROTTO, 1
 
 	def_coord_events
 	coord_event 42, 24, 1, Route47Bridge1OverheadTrigger
@@ -51,6 +52,8 @@ Route47_MapScriptHeader:
 	bg_event 36, 32, BGEVENT_JUMPTEXT, Route47QuietCaveSignText
 	bg_event 34, 33, BGEVENT_ITEM + PEARL, EVENT_ROUTE_47_HIDDEN_PEARL
 	bg_event  5, 32, BGEVENT_ITEM + STARDUST, EVENT_ROUTE_47_HIDDEN_STARDUST
+	bg_event 40, 21, BGEVENT_JUMPSTD, cavegrotto, HIDDENGROTTO_ROUTE_47
+	bg_event 41, 21, BGEVENT_JUMPSTD, cavegrotto, HIDDENGROTTO_ROUTE_47
 
 	def_object_events
 	object_event 59, 26, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerHikerDevin, EVENT_YELLOW_FOREST_ROCKET_TAKEOVER
